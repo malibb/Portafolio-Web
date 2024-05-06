@@ -1,9 +1,22 @@
-* {
+nav, header {
     color: white;
 }
 
 #navbarNav a{
     color:white;
+}
+
+.icono {
+    font-size: 3rem; 
+    color: white;
+    background-color: cornflowerblue;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.subtitulo-habilidades {
+    margin-top: 16px;
 }
 
 header {
