@@ -1,3 +1,5 @@
+/* Mi primer archivo de JS */
+
 var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
@@ -13,4 +15,8 @@ typewriter
     .deleteAll()
     .typeString('<strong>Estudiante</strong>')
     .pauseFor(1500)
+    .deleteAll()
+    .typeString('amante de las comunidades')
+    .pauseFor(1500)
+    
     .start();
